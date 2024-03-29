@@ -1,0 +1,45 @@
+Results:
+Based on the clusters and In relationship status we can analyse further and say:
+
+Optimal number of clusters = 4
+The Elbow Method and Silhouette Analysis suggested 4 clusters (k=4). The elbow method highlighted the number of 4 or 5 clusters as a reasonable number of clusters. The silhouette score analysis revealed a peak silhouette score for k=4.
+
+Cluster Characteristics
+Cluster 0: High value customers in relationship (either married or together)
+This cluster represents 26% of the customer base
+These customers have high income and they are in a relationship
+Cluster 1: Low value single customers
+This cluster represents 21% of the customer base
+These customers have low income and they are single
+Cluster 2: High value single customers
+This cluster represents 15% of the customer base
+These customers have high income and they are single
+Cluster 3: Low value customers in relationship
+This cluster represents 39% of the customer base
+These customers have low income and they are in a relationship
+
+Recommendations
+Based on the clusters, tailored marketing strategies can be created. Customers from these segments will have different interests and product preferences.
+
+Marketing Strategies for Each Cluster
+Cluster 0: High value customers in relationship (either married or together)
+Preliminary analysis showed that high income customers buy more wines and fruits.
+A tailored campaign to promote high quality wines may bring good results.
+This cluster contains customers in relationship, family-oriented promo-images should be quite effective for this audience.
+Cluster 1: Low value single customers
+Promos with discounts and coupons may bring good results for this targeted group.
+Loyalty program may stimulate these customers to purchase more often.
+Cluster 2: High value single customers
+Similar to the Cluster 0, these customers buy a lot of wines and fruits.
+This cluster contains single customers. Promo images with friends, parties or single trips may be more efficient for single customers
+Cluster 3: Low value customers in relationship
+This cluster has the highest percentage of our customers (39%).
+Family offers and discounts may influence these customers to make more purchases
+Opportunities for the further analysis
+Further exploration on how children influence on the consumed products
+Further analysis on the influence of education
+analysis of frequent buyers
+Analysis of sales channels, e.g. store, website, etc.
+Analysis of the response to the marketing campaigns
+It would be great to add gender data to the dataset
+Test different clustering algorithms.
